@@ -13,10 +13,46 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Button">
+      <UniqueIdentifier>{5448ec76-ecd7-499e-b913-70f4384341d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextInput">
+      <UniqueIdentifier>{447672fe-917c-410a-abe9-ade451410b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factory">
+      <UniqueIdentifier>{72e89a89-6eef-4177-af0a-e107a67aca1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IButton.cpp">
+      <Filter>Source Files\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsButton.cpp">
+      <Filter>Source Files\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="LinuxButton.cpp">
+      <Filter>Source Files\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ITextInput.cpp">
+      <Filter>Source Files\TextInput</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsTextInput.cpp">
+      <Filter>Source Files\TextInput</Filter>
+    </ClCompile>
+    <ClCompile Include="LinuxTextInput.cpp">
+      <Filter>Source Files\TextInput</Filter>
+    </ClCompile>
+    <ClCompile Include="IFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="LinuxFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
