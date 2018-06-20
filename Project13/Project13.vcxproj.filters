@@ -22,6 +22,15 @@
     <Filter Include="Source Files\Factory">
       <UniqueIdentifier>{72e89a89-6eef-4177-af0a-e107a67aca1f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Button">
+      <UniqueIdentifier>{7ffe7941-ba23-429f-b271-7099442d7362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{b07bbfe9-8cc8-4233-b2e6-14db15f6e7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TextInput">
+      <UniqueIdentifier>{4a6860fe-261b-4018-9f1c-00d1bee4fbe7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,31 +57,31 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinuxButton.h">
-      <Filter>Source Files\Button</Filter>
-    </ClInclude>
-    <ClInclude Include="WindowsButton.h">
-      <Filter>Source Files\Button</Filter>
-    </ClInclude>
-    <ClInclude Include="LinuxFactory.h">
-      <Filter>Source Files\Factory</Filter>
-    </ClInclude>
-    <ClInclude Include="WindowsFactory.h">
-      <Filter>Source Files\Factory</Filter>
-    </ClInclude>
-    <ClInclude Include="LinuxTextInput.h">
-      <Filter>Source Files\TextInput</Filter>
-    </ClInclude>
-    <ClInclude Include="WindowsTextInput.h">
-      <Filter>Source Files\TextInput</Filter>
+      <Filter>Header Files\Button</Filter>
     </ClInclude>
     <ClInclude Include="IButton.h">
-      <Filter>Source Files\Button</Filter>
+      <Filter>Header Files\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsButton.h">
+      <Filter>Header Files\Button</Filter>
     </ClInclude>
     <ClInclude Include="IFactory.h">
-      <Filter>Source Files\Factory</Filter>
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="LinuxFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsFactory.h">
+      <Filter>Header Files\Factory</Filter>
     </ClInclude>
     <ClInclude Include="ITextInput.h">
-      <Filter>Source Files\TextInput</Filter>
+      <Filter>Header Files\TextInput</Filter>
+    </ClInclude>
+    <ClInclude Include="LinuxTextInput.h">
+      <Filter>Header Files\TextInput</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsTextInput.h">
+      <Filter>Header Files\TextInput</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
