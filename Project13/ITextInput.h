@@ -1,5 +1,5 @@
-#ifndef ITEXTINPUT_CPP
-#define ITEXTINPUT_CPP
+#ifndef ITEXTINPUT_H
+#define ITEXTINPUT_H
 
 #include <string>
 
@@ -10,4 +10,4 @@ struct ITextInput
 	virtual void show() const noexcept = 0;
 };
 
-#endif // !ITEXTINPUT_CPP
+#endif // !ITEXTINPUT_H

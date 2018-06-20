@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-#include "LinuxFactory.cpp"
-#include "WindowsFactory.cpp"
+#include "LinuxFactory.h"
+#include "WindowsFactory.h"
 
 int main()
 {

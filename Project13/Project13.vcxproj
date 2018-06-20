@@ -115,9 +115,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="IButton.cpp" />
-    <ClCompile Include="IFactory.cpp" />
-    <ClCompile Include="ITextInput.cpp" />
     <ClCompile Include="LinuxButton.cpp" />
     <ClCompile Include="LinuxFactory.cpp" />
     <ClCompile Include="LinuxTextInput.cpp" />
@@ -125,6 +122,17 @@
     <ClCompile Include="WindowsButton.cpp" />
     <ClCompile Include="WindowsFactory.cpp" />
     <ClCompile Include="WindowsTextInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IButton.h" />
+    <ClInclude Include="IFactory.h" />
+    <ClInclude Include="ITextInput.h" />
+    <ClInclude Include="LinuxButton.h" />
+    <ClInclude Include="LinuxFactory.h" />
+    <ClInclude Include="LinuxTextInput.h" />
+    <ClInclude Include="WindowsButton.h" />
+    <ClInclude Include="WindowsFactory.h" />
+    <ClInclude Include="WindowsTextInput.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

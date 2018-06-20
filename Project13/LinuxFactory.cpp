@@ -1,22 +1,10 @@
-#ifndef LINUXFACTORY_CPP
-#define LINUXFACTORY_CPP
+#include "LinuxFactory.h"
 
-#include "IFactory.cpp"
-#include "LinuxButton.cpp"
-#include "LinuxTextInput.cpp"
-
-struct LinuxFactory :public IFactory
+IButton* LinuxFactory::createButton() const noexcept 
 {
-	IButton* createButton() const noexcept override
-	{
-		return new LinuxButton("struct LinuxFactory :public Factory");
-	}
-	ITextInput * createTextInput() const noexcept override
-	{
-		return new LinuxTextInput("struct LinuxFactory :public Factory");
-	}
-};
-
-
-#endif // !LINUXFACTORY_CPP
-
+	return new LinuxButton("struct LinuxFactory :public Factory");
+}
+ITextInput * LinuxFactory::createTextInput() const noexcept 
+{
+	return new LinuxTextInput("struct LinuxFactory :public Factory");
+}

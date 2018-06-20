@@ -1,29 +1,16 @@
-#ifndef LINUXTEXTINPUT_CPP
-#define LINUXTEXTINPUT_CPP
+#include "LinuxTextInput.h"
 
-#include <iostream>
-#include <string>
-#include "ITextInput.cpp"
-
-class LinuxTextInput : public ITextInput
+LinuxTextInput::LinuxTextInput() = default;
+LinuxTextInput::LinuxTextInput(const std::string& text) :text(text) {}
+const std::string & LinuxTextInput::getText() const noexcept
 {
-	std::string text;
-	uint32_t id;
-public:
-	LinuxTextInput() = default;
-	LinuxTextInput(const std::string& text) :text(text) {}
-	const std::string & getText() const noexcept
-	{
-		return text;
-	}
-	void setText(std::string& text) noexcept
-	{
-		this->text = text;
-	}
-	void show() const noexcept
-	{
-		std::cout << "Text : " << text << '\n';
-	}
-};
-
-#endif // !LINUXTEXTINPUT_CPP
+	return text;
+}
+void LinuxTextInput::setText(std::string& text) noexcept
+{
+	this->text = text;
+}
+void LinuxTextInput::show() const noexcept
+{
+	std::cout << "Text : " << text << '\n';
+}

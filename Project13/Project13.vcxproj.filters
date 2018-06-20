@@ -27,17 +27,11 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IButton.cpp">
-      <Filter>Source Files\Button</Filter>
-    </ClCompile>
     <ClCompile Include="WindowsButton.cpp">
       <Filter>Source Files\Button</Filter>
     </ClCompile>
     <ClCompile Include="LinuxButton.cpp">
       <Filter>Source Files\Button</Filter>
-    </ClCompile>
-    <ClCompile Include="ITextInput.cpp">
-      <Filter>Source Files\TextInput</Filter>
     </ClCompile>
     <ClCompile Include="WindowsTextInput.cpp">
       <Filter>Source Files\TextInput</Filter>
@@ -45,14 +39,40 @@
     <ClCompile Include="LinuxTextInput.cpp">
       <Filter>Source Files\TextInput</Filter>
     </ClCompile>
-    <ClCompile Include="IFactory.cpp">
-      <Filter>Source Files\Factory</Filter>
-    </ClCompile>
     <ClCompile Include="WindowsFactory.cpp">
       <Filter>Source Files\Factory</Filter>
     </ClCompile>
     <ClCompile Include="LinuxFactory.cpp">
       <Filter>Source Files\Factory</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinuxButton.h">
+      <Filter>Source Files\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsButton.h">
+      <Filter>Source Files\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="LinuxFactory.h">
+      <Filter>Source Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsFactory.h">
+      <Filter>Source Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="LinuxTextInput.h">
+      <Filter>Source Files\TextInput</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsTextInput.h">
+      <Filter>Source Files\TextInput</Filter>
+    </ClInclude>
+    <ClInclude Include="IButton.h">
+      <Filter>Source Files\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>Source Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ITextInput.h">
+      <Filter>Source Files\TextInput</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

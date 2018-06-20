@@ -1,29 +1,19 @@
-#ifndef WINDOWSBUTTON_CPP
-#define WINDOWSBUTTON_CPP
-
 #include <iostream>
 #include <string>
-#include "IButton.cpp"
+#include "IButton.h"
+#include "WindowsButton.h"
 
-class WindowsButton :public IButton
+WindowsButton::WindowsButton() = default;
+WindowsButton::WindowsButton(const std::string& text) :text(text) {}
+const std::string & WindowsButton::getText() const noexcept
 {
-	std::string text;
-	uint32_t id;
-public:
-	WindowsButton() = default;
-	WindowsButton(const std::string& text) :text(text) {}
-	const std::string & getText() const noexcept
-	{
-		return text;
-	}
-	void setText(std::string& text) noexcept
-	{
-		this->text = text;
-	}
-	void show() const noexcept
-	{
-		std::cout << "Text : " << text << '\n';
-	}
-};
-
-#endif // !WINDOWSBUTTON_CPP
+	return text;
+}
+void WindowsButton::setText(std::string& text) noexcept
+{
+	this->text = text;
+}
+void WindowsButton::show() const noexcept
+{
+	std::cout << "Text : " << text << '\n';
+}

@@ -1,5 +1,5 @@
-#ifndef IBUTTON_CPP
-#define IBUTTON_CPP
+#ifndef IBUTTON_H
+#define IBUTTON_H
 
 #include <string>
 
@@ -10,4 +10,4 @@ struct IButton
 	virtual void show() const noexcept = 0;
 };
 
-#endif // !IBUTTON_CPP
+#endif // !IBUTTON_H
