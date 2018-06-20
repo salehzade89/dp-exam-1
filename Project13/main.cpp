@@ -5,12 +5,10 @@
 
 int main()
 {
+
 	LinuxFactory linuxFactory;
-
 	IButton * button = linuxFactory.createButton();
-
 	button->show();
-
 	delete button;
 
 	system("pause");
